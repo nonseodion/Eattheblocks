@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IOracle",
+						"name": "_oracle",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "consume",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "oracle",
+				"outputs": [
+					{
+						"internalType": "contract IOracle",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Client.sol": "Client"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Client.sol": {
+			"keccak256": "0x06c7ff1e667391d2a7d41aac2bc1c49d4faa7871bb68f9ac9eac56795d696e48",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d381b22a6c09ae548293b17c8776030ec46f077aa17fd6b8c66dcbc43b3c590d",
+				"dweb:/ipfs/QmRV9PiVzRoEM5jqvwTiJ8WzkqubTuVzbmwDjLBZKWoere"
+			]
+		},
+		"contracts/interfaces/IOracle.sol": {
+			"keccak256": "0x4a8215997ab5d3110af735ae79f8bf6fc45441e53e811b0da052e00c6d3bf882",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5528d3e6e47ce2eba9fc3ec25cd869e60c4a13fae922b882883435112cb5624",
+				"dweb:/ipfs/QmQj11LrAA9Upg3jyqEu4WcU8Hahvf8DoXLfWy1LnV6GFw"
+			]
+		}
+	},
+	"version": 1
+}

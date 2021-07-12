@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "key",
+						"type": "bytes32"
+					}
+				],
+				"name": "getData",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "recorded",
+						"type": "bool"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_date",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IOracle.sol": "IOracle"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IOracle.sol": {
+			"keccak256": "0x4a8215997ab5d3110af735ae79f8bf6fc45441e53e811b0da052e00c6d3bf882",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d5528d3e6e47ce2eba9fc3ec25cd869e60c4a13fae922b882883435112cb5624",
+				"dweb:/ipfs/QmQj11LrAA9Upg3jyqEu4WcU8Hahvf8DoXLfWy1LnV6GFw"
+			]
+		}
+	},
+	"version": 1
+}
